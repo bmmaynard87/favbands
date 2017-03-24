@@ -1,0 +1,52 @@
+@import "reset";
+
+#select_band {
+    label {
+        width: 20%;
+    }
+}
+
+.inner {
+    width: 100%;
+
+    table {
+        width: 100%;
+        margin-top: 25px;
+
+        thead {
+            padding-top: 10px;
+            th {
+                vertical-align: top;
+            }
+        }
+    }
+}
+
+.form-checkbox {
+    position: relative;
+    top: 2px;
+    left: 5px;
+}
+
+.details {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#discography {
+    margin-bottom: 10px;
+
+    ul {
+        list-style: none;
+        margin-top: 5px;
+    }
+}
+
+.message {
+    margin-top: 10px;
+    height: 15px;
+}
+
+.no-data {
+    margin-top:20px;
+}
